@@ -9,9 +9,9 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
-    dalli (2.7.11)
-    dalli-elasticache (0.2.0)
-      dalli (>= 1.0.0)
+    dalli (3.2.3)
+    dalli-elasticache (1.0.1)
+      dalli (>= 2.0.0)
     eventmachine (1.2.7)
     fake_elasticache (0.0.4)
       eventmachine
@@ -29,9 +29,9 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   connection_pool
-  dalli
+  dalli (>= 3.2.3)
   dalli-elasticache
   fake_elasticache
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
